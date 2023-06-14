@@ -1,8 +1,5 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/31465/34380645-bd67f474-eb0b-11e7-8d03-0151c1730654.png" height="29" />
-</p>
-<p align="center">
-  <i>A fast, collaborative, knowledge base for your team built using React and Node.js.<br/>Try out One- Outline using our hosted version at <a href="https://www.getoutline.com">www.getoutline.com</a>.</i>
+
+  <i>A fast, collaborative, knowledge base for your team built using React and Node.js.<br/> </i>
   <br/>
 </p>
 <p align="center">
@@ -13,42 +10,16 @@
   <a href="https://translate.getoutline.com/project/outline" alt="Localized"><img src="https://badges.crowdin.net/outline/localized.svg"></a>
 </p>
 
-This is the source code that runs [**Outline**](https://www.getoutline.com) and all the associated services. If you want to use Outline then you don't need to run this code, we offer a hosted version of the app at [getoutline.com](https://www.getoutline.com). You can also find documentation on using Outline in [our guide](https://docs.getoutline.com/s/guide).
-
 If you'd like to run your own copy of One-Outline or contribute to development then this is the place for you.
 
 # Installation
 
-Please see the [documentation](https://docs.getoutline.com/s/hosting/) for running your own copy of Outline in a production configuration.
-
-If you have questions or improvements for the docs please create a thread in [GitHub discussions](https://github.com/outline/outline/discussions).
+Please see the [documentation](https://docs.getoutline.com/s/hosting/) for running your own copy of One-Outline in a production configuration.
 
 # Development
 
-There is a short guide for [setting up a development environment](https://docs.getoutline.com/s/hosting/doc/local-development-5hEhFRXow7) if you wish to contribute changes, fixes, and improvements to Outline.
+There is a short guide for [setting up a development environment](https://docs.getoutline.com/s/hosting/doc/local-development-5hEhFRXow7) 
 
-## Contributing
-
-One-Outline is built and maintained by a small team – we'd love your help to fix bugs and add features!
-
-Before submitting a pull request _please_ discuss with the core team by creating or commenting in an issue on [GitHub](https://www.github.com/outline/outline/issues) – we'd also love to hear from you in the [discussions](https://www.github.com/outline/outline/discussions). This way we can ensure that an approach is agreed on before code is written. This will result in a much higher liklihood of your code being accepted.
-
-If you’re looking for ways to get started, here's a list of ways to help us improve Outline:
-
-- [Translation](docs/TRANSLATION.md) into other languages
-- Issues with [`good first issue`](https://github.com/outline/outline/labels/good%20first%20issue) label
-- Performance improvements, both on server and frontend
-- Developer happiness and documentation
-- Bugs and other issues listed on GitHub
-
-## Architecture
-
-If you're interested in contributing or learning more about the Outline codebase
-please refer to the [architecture document](docs/ARCHITECTURE.md) first for a high level overview of how the application is put together.
-
-## Debugging
-
-In development Outline outputs simple logging to the console, prefixed by categories. In production it outputs JSON logs, these can be easily parsed by your preferred log ingestion pipeline.
 
 HTTP logging is disabled by default, but can be enabled by setting the `DEBUG=http` environment variable.
 
@@ -95,6 +66,4 @@ Or to run migrations on test database:
 yarn sequelize db:migrate --env test
 ```
 
-## License
 
-Outline is [BSL 1.1 licensed](LICENSE).
