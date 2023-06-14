@@ -2,9 +2,8 @@
   <img src="https://user-images.githubusercontent.com/31465/34380645-bd67f474-eb0b-11e7-8d03-0151c1730654.png" height="29" />
 </p>
 <p align="center">
-  <i>A fast, collaborative, knowledge base for your team built using React and Node.js.<br/>Try out Outline using our hosted version at <a href="https://www.getoutline.com">www.getoutline.com</a>.</i>
+  <i>A fast, collaborative, knowledge base for your team built using React and Node.js.<br/>Try out One- Outline using our hosted version at <a href="https://www.getoutline.com">www.getoutline.com</a>.</i>
   <br/>
-  <img width="1640" alt="screenshot" src="https://user-images.githubusercontent.com/380914/110356468-26374600-7fef-11eb-9f6a-f2cc2c8c6590.png">
 </p>
 <p align="center">
   <a href="https://circleci.com/gh/outline/outline" rel="nofollow"><img src="https://circleci.com/gh/outline/outline.svg?style=shield"></a>
@@ -16,7 +15,7 @@
 
 This is the source code that runs [**Outline**](https://www.getoutline.com) and all the associated services. If you want to use Outline then you don't need to run this code, we offer a hosted version of the app at [getoutline.com](https://www.getoutline.com). You can also find documentation on using Outline in [our guide](https://docs.getoutline.com/s/guide).
 
-If you'd like to run your own copy of Outline or contribute to development then this is the place for you.
+If you'd like to run your own copy of One-Outline or contribute to development then this is the place for you.
 
 # Installation
 
@@ -30,7 +29,7 @@ There is a short guide for [setting up a development environment](https://docs.g
 
 ## Contributing
 
-Outline is built and maintained by a small team – we'd love your help to fix bugs and add features!
+One-Outline is built and maintained by a small team – we'd love your help to fix bugs and add features!
 
 Before submitting a pull request _please_ discuss with the core team by creating or commenting in an issue on [GitHub](https://www.github.com/outline/outline/issues) – we'd also love to hear from you in the [discussions](https://www.github.com/outline/outline/discussions). This way we can ensure that an approach is agreed on before code is written. This will result in a much higher liklihood of your code being accepted.
 
